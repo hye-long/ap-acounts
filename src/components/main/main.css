@@ -1,0 +1,44 @@
+.forming {
+    text-align: center;
+
+}
+
+.formPage {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.formPage-formProducts{
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+    padding-right:30px;
+}
+
+
+
+.formPage.hidden {
+    opacity: 0;
+    /* hidden 클래스가 추가되면 투명도를 0으로 설정하여 사라지도록 함 */
+}
+
+
+
+.formAge {
+    margin-top: 10px;
+}
+
+.submitButton {
+    margin-top: 20px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    width: 80%;
+}
